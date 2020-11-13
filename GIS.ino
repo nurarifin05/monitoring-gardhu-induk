@@ -27,9 +27,9 @@ const char* password = "16622180"; //Password Wifi
 
 
 
-const char* mqtt_server = "202.154.58.84";
-const char* mqtt_user = "arifin";
-const char* mqtt_password = "arifinjuga";
+const char* mqtt_server = ""; //ipserver
+const char* mqtt_user = "";
+const char* mqtt_password = "";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
